@@ -9,6 +9,7 @@ import RenderizadoElemento from "./components/RenderizadoElemento";
 import {EventosES6, EventosES7, MasSobreEventos} from "./components/Eventos";
 import ComunicacionComponente from "./components/ComunicacionComponente";
 import AjaxApis from "./components/AjaxApis";
+import ContadorHooks from "./components/ContadorHooks";
 
 function App() {
     let nombre = 'Alexis';
@@ -58,6 +59,8 @@ function App() {
                     <ComunicacionComponente/>
                     <hr/>
                     <AjaxApis/>
+                    <hr/>
+                    <ContadorHooks titulo={'Seguidores'}/>
                 </section>
             </header>
 
