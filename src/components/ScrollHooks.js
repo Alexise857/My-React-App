@@ -17,19 +17,19 @@ export default function ScrollHooks() {
     }, [scrollY]);
 
     useEffect(() => { // si yo necesitara que un useEfect se llame en la fase de monate, usar 2do parametro
-        console.log('Fase de Montaje')
+        // console.log('Fase de Montaje')
     }, [])
     // cuando le pasamos alguna variable de estado que queremos controlar, significa que el useEfect solo ejecutara si la variable passada cambia
     // si quieres que se ejecute una sola vez, como una peticion a la APIsi se deja vacio, React recominda dejar el arreglo vacio
 
     useEffect(() => {
-        console.log('Fase de Actualizacion')
+        // console.log('Fase de Actualizacion')
     }) // si no tiene definido el segundo parameotr, sera un componeneDidUpdate
 
     useEffect(() => {
         return () => {
             // dessubrcribirse de servicios
-            console.log('Fase de desmontaje')
+            // console.log('Fase de desmontaje')
         }
 
     })

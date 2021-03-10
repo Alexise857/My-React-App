@@ -13,6 +13,8 @@ import ContadorHooks from "./components/ContadorHooks";
 import ScrollHooks from "./components/ScrollHooks";
 import RelojHooks from "./components/RelojHooks";
 import CicloVida from "./components/CicloVida";
+import AjaxHooks from "./components/AjaxHooks";
+import HooksPersonalizados from "./components/HooksPersonalizados";
 
 function App() {
     let nombre = 'Alexis';
@@ -69,8 +71,11 @@ function App() {
                     <hr/>
                     <CicloVida/>
                     <hr/>
-                    <hr/>
                     <RelojHooks/>
+                    <hr/>
+                    <AjaxHooks/>
+                    <hr/>
+                    <HooksPersonalizados/>
                 </section>
             </header>
 
