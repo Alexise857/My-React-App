@@ -11,6 +11,8 @@ import ComunicacionComponente from "./components/ComunicacionComponente";
 import AjaxApis from "./components/AjaxApis";
 import ContadorHooks from "./components/ContadorHooks";
 import ScrollHooks from "./components/ScrollHooks";
+import CicloVida from "./components/CicloVida";
+import AjaxApis from "./components/AjaxApis";
 
 function App() {
     let nombre = 'Alexis';
@@ -64,6 +66,10 @@ function App() {
                     <ContadorHooks titulo={'Seguidores'}/>
                     <hr/>
                     <ScrollHooks/>
+                    <hr/>
+                    <CicloVida/>
+                    <hr/>
+                    <AjaxApis/>
                 </section>
             </header>
 
