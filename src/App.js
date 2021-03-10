@@ -8,6 +8,7 @@ import RenderizadoCondicional from "./components/RederizadoCondicional";
 import RenderizadoElemento from "./components/RenderizadoElemento";
 import {EventosES6, EventosES7, MasSobreEventos} from "./components/Eventos";
 import ComunicacionComponente from "./components/ComunicacionComponente";
+import AjaxApis from "./components/AjaxApis";
 
 function App() {
     let nombre = 'Alexis';
@@ -55,6 +56,8 @@ function App() {
                     <MasSobreEventos/>
                     <hr/>
                     <ComunicacionComponente/>
+                    <hr/>
+                    <AjaxApis/>
                 </section>
             </header>
 
