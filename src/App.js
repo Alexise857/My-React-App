@@ -10,6 +10,7 @@ import {EventosES6, EventosES7, MasSobreEventos} from "./components/Eventos";
 import ComunicacionComponente from "./components/ComunicacionComponente";
 import AjaxApis from "./components/AjaxApis";
 import ContadorHooks from "./components/ContadorHooks";
+import ScrollHooks from "./components/ScrollHooks";
 
 function App() {
     let nombre = 'Alexis';
@@ -61,6 +62,8 @@ function App() {
                     <AjaxApis/>
                     <hr/>
                     <ContadorHooks titulo={'Seguidores'}/>
+                    <hr/>
+                    <ScrollHooks/>
                 </section>
             </header>
 

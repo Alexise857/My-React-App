@@ -7,8 +7,8 @@ export default function ContadorHooks(props) { // En los componenets de funcion,
     const restar = () => setContador(contador - 1);
 
     // console.log(useState())
-    console.log({contador})
-    console.log(setContador)
+    // console.log({contador})
+    // console.log(setContador)
     return (
         <>
             <h2>Hooks - useState</h2>
