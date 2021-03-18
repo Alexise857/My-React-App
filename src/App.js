@@ -8,8 +8,13 @@ import RenderizadoCondicional from "./components/RederizadoCondicional";
 import RenderizadoElemento from "./components/RenderizadoElemento";
 import {EventosES6, EventosES7, MasSobreEventos} from "./components/Eventos";
 import ComunicacionComponente from "./components/ComunicacionComponente";
-import CicloVida from "./components/CicloVida";
 import AjaxApis from "./components/AjaxApis";
+import ContadorHooks from "./components/ContadorHooks";
+import ScrollHooks from "./components/ScrollHooks";
+import RelojHooks from "./components/RelojHooks";
+import CicloVida from "./components/CicloVida";
+import AjaxHooks from "./components/AjaxHooks";
+import HooksPersonalizados from "./components/HooksPersonalizados";
 
 function App() {
     let nombre = 'Alexis';
@@ -58,9 +63,19 @@ function App() {
                     <hr/>
                     <ComunicacionComponente/>
                     <hr/>
+                    <AjaxApis/>
+                    <hr/>
+                    <ContadorHooks titulo={'Seguidores'}/>
+                    <hr/>
+                    <ScrollHooks/>
+                    <hr/>
                     <CicloVida/>
                     <hr/>
-                    <AjaxApis/>
+                    <RelojHooks/>
+                    <hr/>
+                    <AjaxHooks/>
+                    <hr/>
+                    <HooksPersonalizados/>
                 </section>
             </header>
 

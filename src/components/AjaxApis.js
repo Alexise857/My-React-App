@@ -31,7 +31,7 @@ export default class AjaxApis extends Component {
                                 avatar: json.sprites.front_default
                             }
 
-                            console.log({pokemon})
+                            // console.log({pokemon})
 
                             let pokemons = [
                                 ...this.state.pokemons,
